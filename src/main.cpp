@@ -99,7 +99,7 @@ int main() {
     // Phase 0: Overclock the board to 250MHz. According to
     //          https://www.youtube.com/watch?v=G2BuoFNLo this should be
     //          totally safe with the default 1.10V Vcore
-    set_sys_clock_khz(250000, true);
+    //set_sys_clock_khz(250000, true);
 
     // Phase 1: Init the status LEDs
     statusLeds.init();
